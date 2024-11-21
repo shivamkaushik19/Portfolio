@@ -66,7 +66,7 @@ const ContactForm = () => {
                         Save my name, email, and website in this browser for the next time.
                     </label>
                 </div>
-                <Link to="/thankyou"  ><button className="resume_btn">View Resume</button></Link> 
+                <Link to="/thankyou"  ><button className="resume_btn">Submit</button></Link> 
             </form>
             
         </div>
