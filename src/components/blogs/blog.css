@@ -1,0 +1,574 @@
+.learning-to-code-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 3%;
+}
+
+.heading-learning-to-code {
+  margin-top: 7%;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.text-container {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  order: 2; /* Default order: Content after the image */
+}
+
+.image-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1; /* Default order: Image first */
+}
+
+.content-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1020px) {
+  .heading-learning-to-code {
+      margin-top: 15%;
+  }
+
+  .content-container {
+      flex-direction: column; /* Stack the image and content vertically */
+  }
+
+  .text-container,
+  .image-container {
+      width: 100%;
+      min-width: unset;
+      padding: 10px;
+  }
+
+  .image-container {
+      order: 1; /* Ensure the image appears above the content */
+  }
+
+  .text-container {
+      order: 2; /* Content comes below the image */
+  }
+
+  .content-image {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .content-description {
+      font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading-learning-to-code {
+      font-size: 25px;
+      width: 93%;
+      text-align: center;
+      margin-top: 20%;
+  }
+
+  .text-container,
+  .image-container {
+      padding: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .heading-learning-to-code {
+      font-size: 19px;
+      width: 95%;
+  }
+}
+
+
+/* blog2 */
+.mastering-language-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 3%;
+  }
+  
+  .heading-mastering-language {
+    margin-top: 7%;
+    text-align: center;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .content-left {
+    flex: 1;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    order: 1; /* Content on the left side for larger screens */
+  }
+  
+  .content-right {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2; /* Image on the right side for larger screens */
+  }
+  
+  .content-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .content-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 1020px) {
+
+    .heading-mastering-language {
+
+        margin-top: 15%;
+    }
+
+    .mastering-language-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .content-container {
+      flex-direction: column; /* Stack the image and content in column on smaller screens */
+    }
+  
+    .content-left,
+    .content-right {
+      width: 100%;
+      min-width: unset;
+      padding: 10px;
+    }
+  
+    .content-left {
+      order: 2; /* Content appears after the image on smaller screens */
+    }
+  
+    .content-right {
+      order: 1; /* Image appears first on smaller screens */
+    }
+  
+    .content-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .content-description {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .heading-mastering-language {
+      font-size: 25px;
+      width: 93%;
+      text-align: center;
+      margin-top: 20%;
+    }
+  
+    .content-description {
+      font-size: 12px;
+    }
+  
+    .content-left,
+    .content-right {
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .heading-mastering-language {
+      font-size: 19px;
+      width: 95%;
+    }
+  }
+  /* blog3 */
+/* Container for Business Innovation Section */
+.business-innovation-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 3%;
+}
+
+.heading-business-innovation {
+  margin-top: 7%;
+  text-align: center;
+}
+
+.innovation-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.innovation-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  order: 2; /* Default: Content appears on the right */
+}
+
+.innovation-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1; /* Default: Image appears on the left */
+}
+
+.business-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 1020px) {
+  .heading-business-innovation {
+      margin-top: 15%;
+  }
+
+  .innovation-content {
+      flex-direction: column; /* Stack vertically on smaller screens */
+  }
+
+  .innovation-image {
+      order: 1; /* Image appears above the content */
+  }
+
+  .innovation-text {
+      order: 2; /* Content comes below the image */
+  }
+
+  .business-image {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading-business-innovation {
+      font-size: 25px;
+      width: 93%;
+      text-align: center;
+      margin-top: 20%;
+  }
+
+  .innovation-text,
+  .innovation-image {
+      padding: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .heading-business-innovation {
+      font-size: 19px;
+      width: 95%;
+  }
+}
+/* blog 4 */
+.invest-coding-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 3%;
+}
+
+.heading-invest-coding {
+  margin-top: 7%;
+  text-align: center;
+}
+
+.coding-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.coding-content-left {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  order: 1; /* Content on the left side for larger screens */
+}
+
+.coding-content-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2; /* Image on the right side for larger screens */
+}
+
+.coding-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 1020px) {
+  .heading-invest-coding {
+    margin-top: 15%;
+  }
+
+  .invest-coding-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coding-content-container {
+    flex-direction: column; /* Stack the image and content in column on smaller screens */
+  }
+
+  .coding-content-left,
+  .coding-content-right {
+    width: 100%;
+    min-width: unset;
+    padding: 10px;
+  }
+
+  .coding-content-left {
+    order: 2; /* Content appears after the image on smaller screens */
+  }
+
+  .coding-content-right {
+    order: 1; /* Image appears first on smaller screens */
+  }
+
+  .coding-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading-invest-coding {
+    font-size: 25px;
+    width: 93%;
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .coding-content-left,
+  .coding-content-right {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .heading-invest-coding {
+    font-size: 19px;
+    width: 95%;
+  }
+}
+/* comment  */
+/* General Styles */
+/* General Styles */
+.comment-box-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+   margin-top: 5%;
+  height: auto;
+}
+
+.comment-box {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.comment-box-header {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field,
+.comment-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.input-field:focus,
+.comment-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.comment-input {
+  height: 120px;
+  resize: none;
+}
+
+.submit-button {
+  align-self: flex-end;
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Comment List Styles */
+.comment-list {
+  margin-top: 30px;
+}
+
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  align-self: flex-start;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
+
+.no-comments {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .comment-box {
+    padding: 20px;
+  }
+
+  .input-field,
+  .comment-input {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+
+  .submit-button {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .comment-box {
+    padding: 15px;
+  }
+
+  .comment-box-header {
+    font-size: 1.5rem;
+  }
+
+  .input-field,
+  .comment-input {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .submit-button {
+    font-size: 0.8rem;
+    padding: 8px 14px;
+  }
+}

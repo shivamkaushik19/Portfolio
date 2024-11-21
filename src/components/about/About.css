@@ -1,0 +1,68 @@
+.about-me-section {
+    display: flex;
+    padding: 30px;
+    margin-top: 3%;
+    flex-direction: row-reverse;
+  }
+  
+  
+  
+  .about-me-content {
+    padding-left: 30px;
+  }
+  
+  .about-me-title {
+    font-size: 48px;
+    color: #222;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+  }
+  
+  .about-me-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+  }
+  
+  .about-me-title.visible, .about-me-description.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .about-me-resume, .about-me-portfolio {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .about-me-resume:hover, .about-me-portfolio:hover {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .about-me-section {
+      flex-direction: column;
+     
+    }
+    .about-me-title{
+        font-size: 33px;
+        padding-left: 1px;
+    }
+  
+    .about-me-content {
+      padding-left: 1px;
+      
+     
+    }
+  
+    
+  }
+  

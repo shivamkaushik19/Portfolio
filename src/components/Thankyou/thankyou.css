@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Background Image Styling */
+  .thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Content Styling */
+  .thank-you-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a subtle background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thank-you-heading {
+    color: #4caf50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .thank-you-text {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .thank-you-heading {
+      font-size: 2rem;
+    }
+  
+    .thank-you-text {
+      font-size: 1rem;
+    }
+  
+    .thank-you-content {
+      padding: 15px;
+    }
+  }
+  
